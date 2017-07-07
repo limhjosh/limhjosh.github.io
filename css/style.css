@@ -40,6 +40,12 @@ a:link, a:visited {
   color: black;
 }
 
+.fa:hover{
+  font-size:6em;
+  line-height:22pt;
+  transition: 1s ease-out;
+}
+
 @media only screen and (max-width: 500px) {
   #banner {
     background-position: center;
