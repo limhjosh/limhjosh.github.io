@@ -1,31 +1,35 @@
 $( document ).ready(function() {
 
-	$("body").on("hover", ".github", function(){
-		$(".description").show();
+	$("body").on("mouseenter", ".github", function(){
 	    $(".description").text("Github");
 	});
+	
+	$("body").on("mouseleave", ".github", function(){
+	    $(".description").text(" ");
+	});
 
-	$("body").on("hover", ".linkedin", function(){
-		$(".description").show();
+	$("body").on("mouseenter", ".linkedin", function(){
 	    $(".description").text("Linkedin");
 	});
-
-	$("body").on("hover", ".resume", function(){
-		$(".description").show();
-	    $(".description").text("Resume");
+	
+	$("body").on("mouseleave", ".linkedin", function(){
+	    $(".description").text(" ");
 	});
 
-	$("body").on("hover", ".email", function(){
-		$(".description").show();
+	$("body").on("moouseenter", ".resume", function(){
+	    $(".description").text("Resume");
+	});
+	
+	$("body").on("mouseleave", ".resume", function(){
+	    $(".description").text(" ");
+	});
+
+	$("body").on("mouseenter", ".email", function(){
 	    $(".description").text("Email");
 	});
 	
-	$("body").on("hover", ".main-header", function(){
-	    $(".description").hide();
-	});
-	
-	$("body").on("hover", ".explanation", function(){
-	    $(".description").hide();
+	$("body").on("mouseleave", ".email", function(){
+	    $(".description").text(" ");
 	});
 
 });
