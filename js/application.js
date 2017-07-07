@@ -15,5 +15,13 @@ $( document ).ready(function() {
 	$(".email").hover(function(){
 	    $(".description").text("Email");
 	});
+	
+	$(".main-header").hover(function(){
+	    $(".description").hide();
+	});
+	
+	$(".explanation").hover(function(){
+	    $(".description").hide();
+	});
 
 });
