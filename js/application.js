@@ -4,23 +4,23 @@ $( document ).ready(function() {
 	    $(".description").text("Github");
 	});
 
-	$(".linkedin").hover(function(){
+	$("body").on("hover", ".linkedin", function(){
 	    $(".description").text("Linkedin");
 	});
 
-	$(".resume").hover(function(){
+	$("body").on("hover", ".resume", function(){
 	    $(".description").text("Resume");
 	});
 
-	$(".email").hover(function(){
+	$("body").on("hover", ".email", function(){
 	    $(".description").text("Email");
 	});
 	
-	$(".main-header").hover(function(){
+	$("body").on("hover", ".main-header", function(){
 	    $(".description").hide();
 	});
 	
-	$(".explanation").hover(function(){
+	$("body").on("hover", ".explanation", function(){
 	    $(".description").hide();
 	});
 
