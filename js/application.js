@@ -16,7 +16,7 @@ $( document ).ready(function() {
 	    $(".description").text(" ");
 	});
 
-	$("body").on("moouseenter", ".resume", function(){
+	$("body").on("mouseenter", ".resume", function(){
 	    $(".description").text("Resume");
 	});
 	
