@@ -13,7 +13,7 @@ $( document ).ready(function() {
 	});
 
 	$(".email").hover(function(){
-	    $(".description").text("Email Me");
+	    $(".description").text("Email");
 	});
 
 });
