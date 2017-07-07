@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-	$(".github").hover(function(){
+	$("body").on("hover", ".github", function(){
 	    $(".description").text("Github");
 	});
 
