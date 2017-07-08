@@ -62,6 +62,10 @@ body, html {
   letter-spacing: 10px;
 }
 
+span {
+  display: inline-block;
+}
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
