@@ -5,7 +5,7 @@ $( document ).ready(function() {
 	});
 	
 	$("body").on("mouseleave", ".github", function(){
-	    $(".description").text(" ");
+	    $(".description").text("THANKS FOR VISITING");
 	});
 
 	$("body").on("mouseenter", ".linkedin", function(){
@@ -13,7 +13,7 @@ $( document ).ready(function() {
 	});
 	
 	$("body").on("mouseleave", ".linkedin", function(){
-	    $(".description").text(" ");
+	    $(".description").text("THANKS FOR VISITING");
 	});
 
 	$("body").on("mouseenter", ".resume", function(){
@@ -21,7 +21,7 @@ $( document ).ready(function() {
 	});
 	
 	$("body").on("mouseleave", ".resume", function(){
-	    $(".description").text(" ");
+	    $(".description").text("THANKS FOR VISITING");
 	});
 
 	$("body").on("mouseenter", ".email", function(){
@@ -29,7 +29,7 @@ $( document ).ready(function() {
 	});
 	
 	$("body").on("mouseleave", ".email", function(){
-	    $(".description").text(" ");
+	    $(".description").text("THANKS FOR VISITING");
 	});
 
 });
