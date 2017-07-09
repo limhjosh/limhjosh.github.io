@@ -52,9 +52,10 @@ body, html {
   width: 100%;
   text-align: center;
   color: #000;
+  font-weight: 700;
 }
 
-.caption span.border {
+span.border {
   background-color: #111;
   color: #fff;
   padding: 18px;
