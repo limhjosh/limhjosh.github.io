@@ -51,8 +51,9 @@ body, html {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #fff;
   font-sizes: 50px;
+  letter-spacing: 10px;
 }
 
 span.border {
