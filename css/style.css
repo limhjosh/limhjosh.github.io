@@ -23,7 +23,7 @@ body, html {
   font-family: 'Raleway', sans-serif;
 }
 
-.background-image, .bio-image, .links-image {
+.background-image, .bio-image, .links-image, .end-image {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -33,7 +33,7 @@ body, html {
 
 }
 .background-image {
-  background-image: url("https://assets.entrepreneur.com/article/1413519079_unsplash-1024x682.jpg");
+  background-image: url("images/turtle.jpg");
   min-height: 100%;
 }
 
@@ -45,6 +45,11 @@ body, html {
 .links-image {
   background-image: url("https://static.pexels.com/photos/1510/road-sky-sand-street.jpg");
   min-height: 400px;
+}
+
+.end-image {
+  background-image: url("https://static.pexels.com/photos/12567/photo-1444703686981-a3abbc4d4fe3.jpeg");
+  min-height: 100%;
 }
 
 .caption {
