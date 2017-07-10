@@ -76,11 +76,11 @@ h3 {
 }
 
 svg {
-  position: absolute;
+/*   position: absolute;
   top: 50%;
   margin-top: -60px;
   left: 50%;
-  margin-left: -225px;
+  margin-left: -225px; */
 }
 
 @media only screen and (max-device-width: 1024px) {
