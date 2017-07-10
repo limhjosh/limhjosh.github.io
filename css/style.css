@@ -146,6 +146,6 @@ span.image-text span {
   vertical-align: middle;
 }
 
-span.image-text:hover span.image-text {
+.projects a:hover span.image-text {
   opacity: 1;
 }
