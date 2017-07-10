@@ -11,7 +11,7 @@ a:link, a:visited {
 }
 
 .fa:hover{
-  font-size: 40px;
+  font-size: 60px;
   transform: rotate(45deg);
 }
 
