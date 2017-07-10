@@ -118,10 +118,10 @@ h3 {
   letter-spacing: -8px;
 }
 
-.links b {
+.links div b {
   display:none;
 }
 
-.links a:hover b{
+.links a:hover b {
   display:block;
 }
