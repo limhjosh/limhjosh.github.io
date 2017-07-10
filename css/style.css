@@ -33,7 +33,7 @@ body, html {
 
 }
 .background-image {
-  background-image: url("images/turtle.jpg");
+  background-image: url("../images/turtle.jpg");
   min-height: 100%;
 }
 
