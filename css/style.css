@@ -83,14 +83,6 @@ h3 {
   color: #111;
 }
 
-/* svg {
-  position: absolute;
-  top: 50%;
-  margin-top: -60px;
-  left: 50%;
-  margin-left: -425px;
-} */
-
 @media only screen and (max-device-width: 1024px) {
     .background-image, .bio-image, .links-image {
         background-attachment: scroll;
@@ -138,6 +130,10 @@ span.image-text {
   top: 0;
   width: 150px;
   opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 span.image-text span {
