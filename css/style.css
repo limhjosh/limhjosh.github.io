@@ -117,3 +117,11 @@ h3 {
   line-height: 90px;
   letter-spacing: -8px;
 }
+
+.links b {
+  display:none;
+}
+
+.links a:hover b{
+  display:block;
+}
