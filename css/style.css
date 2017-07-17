@@ -34,12 +34,12 @@ body, html {
 
 }
 .background-image {
-  background-image: url("https://static.pexels.com/photos/9694/pexels-photo.jpeg");
+  background-image: url("../images/turtle.jpg");
   min-height: 100%;
 }
 
 .bio-image {
-  background-image: url("../images/turtle.jpg");
+  background-image: url("https://static.pexels.com/photos/9694/pexels-photo.jpeg");
   min-height: 400px;
 }
 
