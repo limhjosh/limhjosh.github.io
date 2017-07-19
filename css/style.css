@@ -39,22 +39,22 @@ body, html {
 
 }
 .background-image {
-  background-image: url("../images/turtle.jpg");
+  background-image: url("../images/spiral.jpg");
   min-height: 100%;
 }
 
 .bio-image {
-  background-image: url("../images/field.jpg");
+  background-image: url("../images/wormhole.jpg");
   min-height: 400px;
 }
 
 .links-image {
-  background-image: url("../images/road.png");
+  background-image: url("../images/connect.jpg");
   min-height: 400px;
 }
 
 .end-image {
-  background-image: url("../images/stars.jpeg");
+  background-image: url("../images/visiting.jpg");
   min-height: 100%;
 }
 
