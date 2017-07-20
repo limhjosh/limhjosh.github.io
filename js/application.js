@@ -47,7 +47,7 @@ $( document ).ready(function() {
 	
 	$("body").on("click", ".bounce", function() {
     		$('html,body').animate({
-        		scrollTop: $(".end-image").offset().top}, 7000);
+        		scrollTop: $(".end-image").offset().top}, 14000);
 		$(".bounce").hide()
 	});
 });
