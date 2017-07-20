@@ -44,4 +44,10 @@ $( document ).ready(function() {
     		console.log(traX);
     		$(".title").css({"background-position": traX + "%" + traY + "%"});
 	});
+	
+	$("body").on("click", ".bounce", function() {
+    		$('html,body').animate({
+        		scrollTop: $(".end-image").offset().top}, 7000);
+		$(".bounce").hide()
+	});
 });
